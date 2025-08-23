@@ -3688,7 +3688,7 @@ cmd.add({"autoexecclear", "aexecclear", "aeclear"}, {"autoexecclear (aexecclear,
 end)
 
 cmd.add({"executor","exec"},{"executor (exec)","Very simple executor"},function()
-	loadstring(game:HttpGet("https://github.com/vantrivo/Script-Executor-v2/blob/main/Scriptexecutor"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/vantrivo/Script-Executor-v2/refs/heads/main/Scriptexecutor"))()
 end)
 
 cmd.add({"commandloop", "cmdloop"}, {"commandloop <command> {arguments} (cmdloop)", "Run a command on loop"}, function(...)
